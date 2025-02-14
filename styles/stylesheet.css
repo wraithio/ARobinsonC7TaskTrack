@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Kumbh";
+    src: url(/assets/fonts/KumbhSans-VariableFont_YOPQ\,wght.ttf);
+}
+
+body{
+    font-family: "Kumbh",Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(36, 35, 35);
+}
+
+h3,h2,h1{
+    font-weight: 200;
+    width: fit-content;
+    margin: 0px;
+}
+
+/* button{
+    background-color: transparent;
+    color: white;
+    border: white 1px solid;
+    border-radius: .5rem;
+    padding: .25rem;
+}
+
+button:hover{
+    border: dashed 1px;
+} */
+
+.offcanvas{
+    color: white;
+    background-color: black;
+}
+
+input{
+    font-size: 24px;
+}
+
+.date{
+    width: 15%;
+}
+
+#yearInput{
+    width: 25%;
+}
+
+#entry{
+    color: black;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.remove:hover{
+    color: red;
+}
