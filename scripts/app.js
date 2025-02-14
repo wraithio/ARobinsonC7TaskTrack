@@ -112,6 +112,7 @@ let createEntry = (task) => {
 
 let generateOnLoad = () => {
   let taskArr = getFromLocalStorage();
+  warningText.className = taskArr.length === 0 ? "d-block text-center" : "d-none";
   taskArr.map((entry) => {
     createEntry(entry);
   });
