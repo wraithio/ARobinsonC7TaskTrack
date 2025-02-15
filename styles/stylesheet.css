@@ -54,3 +54,7 @@ input{
 .remove:hover{
     color: red;
 }
+
+.col-4{
+    height: fit-content;
+}
